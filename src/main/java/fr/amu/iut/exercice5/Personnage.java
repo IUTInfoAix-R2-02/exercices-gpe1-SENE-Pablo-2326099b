@@ -59,6 +59,7 @@ class Personnage extends Group {
         }
         if (!direction.equals("droite")) {
             direction = "droite";
+
         }
     }
 
@@ -80,4 +81,6 @@ class Personnage extends Group {
         return getBoundsInParent().contains(autrePersonnage.getBoundsInParent())
                 || autrePersonnage.getBoundsInParent().contains(getBoundsInParent());
     }
+
+
 }

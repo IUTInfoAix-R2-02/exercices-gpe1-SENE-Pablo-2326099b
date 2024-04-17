@@ -63,15 +63,23 @@ public class JeuMain extends Application {
                 //J1
                 case LEFT:
                     j1.deplacerAGauche();
+                    j1.getLayoutX();
+                    j1.getLayoutY();
                     break;
                 case RIGHT:
                     j1.deplacerADroite(scene.getWidth());
+                    j1.getLayoutX();
+                    j1.getLayoutY();
                     break;
                 case UP:
                     j1.deplacerEnHaut();
+                    j1.getLayoutX();
+                    j1.getLayoutY();
                     break;
                 case DOWN:
                     j1.deplacerEnBas(scene.getHeight());
+                    j1.getLayoutX();
+                    j1.getLayoutY();
                     break;
                 //J2
                 case Q:

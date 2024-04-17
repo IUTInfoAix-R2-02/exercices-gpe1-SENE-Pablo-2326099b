@@ -23,12 +23,11 @@ public class Pacman extends Personnage {
         bouche.setEndX(bouche.getStartX() - LARGEUR_MOITIE_PERSONNAGE + .5);
         bouche.setEndY(bouche.getStartY());
     }
-
     @Override
     public void deplacerADroite(double largeurJeu) {
         super.deplacerADroite(largeurJeu);
         //sens de la bouche
-        bouche.setEndX(bouche.getStartX() + LARGEUR_MOITIE_PERSONNAGE - .5);    
+        bouche.setEndX(bouche.getStartX() + LARGEUR_MOITIE_PERSONNAGE - .5);
         bouche.setEndY(bouche.getStartY());
     }
 
